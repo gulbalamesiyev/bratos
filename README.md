@@ -29,7 +29,7 @@ curl -fsSL https://raw.githubusercontent.com/gulbalamesiyev/bratos/main/install.
 ---
 
 🎯 Niyə BratOS?
-
+```
 Əvvəl             BratOS ilə
 GitHub-da axtar   brat search
 git clone         brat install
@@ -37,7 +37,7 @@ pip install -r    avtomatik
 Dependencylər     sıfır problem
 2 GB Kali         ~50 MB
 Proot lag         native sürət
-
+```
 ---
 
 
