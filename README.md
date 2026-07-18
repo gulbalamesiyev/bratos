@@ -21,7 +21,9 @@
 
 ---
 
-## ⚡ Easy Install
+# ⚡ Easy Install
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/gulbalamesiyev/bratos/main/install.sh | bash
+
+#Developed by Masiyev Gülbala 
