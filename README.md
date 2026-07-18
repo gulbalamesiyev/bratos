@@ -59,7 +59,7 @@ brat doctor             # Sistem məlumatları
 ---
 
 🛠️ Bütün Əmrlər
-
+```
 Əmr Açıqlama
 brat doctor (Sistem statusu)
 brat update (Paket indeksini yenilə)
@@ -70,7 +70,7 @@ brat run <x> (Alət quraşdırılmayıbsa müvəqqəti işlət)
 brat uninstall <x> (Aləti sil)
 brat list (Quraşdırılmış alətlər)
 brat version (Versiya)
-
+```
 ---
 
 📂 Kateqoriyalar
