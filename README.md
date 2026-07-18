@@ -12,7 +12,7 @@
 
 ---
 
-# 🩸 BRATOS
+# 🩸BratOS-Developed by Masiyev Gülbala
 
 <p align="center">
   <b>Azərbaycanın ilk Hacking Əməliyyat Sistemi</b><br>
@@ -25,5 +25,3 @@
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/gulbalamesiyev/bratos/main/install.sh | bash
-
-Developed by Masiyev Gülbala 
