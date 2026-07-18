@@ -62,35 +62,36 @@ brat doctor             # Sistem məlumatları
 🛠️ Bütün Əmrlər
 
 Əmr Açıqlama
-brat doctor 🩺 Sistem statusu
-brat update 🔄 Paket indeksini yenilə
-brat search <axtarış> 🔍 Alət axtar (ad, açıqlama, kateqoriya)
-brat browse 📂 İnteraktiv kateqoriya/alət menyusu
-brat install <alət> 📦 Aləti daimi quraşdır
-brat run <alət> ▶️ Aləti işlət (quraşdırılmayıbsa müvəqqəti)
-brat uninstall <alət> 🗑️ Aləti sil
-brat list 📋 Quraşdırılmış alətlər
-brat version ℹ️ Versiya
+brat doctor (Sistem statusu)
+brat update (Paket indeksini yenilə)
+brat search <x> (Alət axtar)
+brat browse (alət menyusu)
+brat install <x> (Aləti daimi quraşdır)
+brat run <x> (Alət quraşdırılmayıbsa müvəqqəti işlət)
+brat uninstall <x> (Aləti sil)
+brat list (Quraşdırılmış alətlər)
+brat version (Versiya)
 
 ---
 
 📂 Kateqoriyalar
 
 # Kateqoriya Alət sayı
-1 ☁️ Cloud 7
-2 🔐 Crypto 7
-3 💣 Exploit 8
-4 🔬 Forensics 6
-5 🦠 Malware 4
-6 📱 Mobile 10
-7 🌐 Network 17
-8 🕵️ OSINT 14
-9 🔍 Recon 28
-10 ⚙️ Reverse 8
-11 🎭 Stego 5
-12 🌍 Web 24
-13 📶 Wireless 6
-14 🤖 AI 1
+
+#1 ☁️ Cloud 7
+#2 🔐 Crypto 7
+#3 💣 Exploit 8
+#4 🔬 Forensics 6
+#5 🦠 Malware 4
+#6 📱 Mobile 10
+#7 🌐 Network 17
+#8 🕵️ OSINT 14
+#9 🔍 Recon 28
+#10 ⚙️ Reverse 8
+#11 🎭 Stego 5
+#12 🌍 Web 24
+#13 📶 Wireless 6
+#14 🤖 AI 1
 
 ---
 
