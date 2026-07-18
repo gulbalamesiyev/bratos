@@ -25,8 +25,7 @@
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/gulbalamesiyev/bratos/main/install.sh | bash
-
-
+```
 ---
 
 🎯 Niyə BratOS?
