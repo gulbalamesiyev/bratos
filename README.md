@@ -75,7 +75,7 @@ brat version (Versiya)
 ---
 
 📂 Kateqoriyalar
-
+```
 # Kateqoriya Alət sayı
 
 #1 ☁️ Cloud 7
@@ -92,7 +92,7 @@ brat version (Versiya)
 #12 🌍 Web 24
 #13 📶 Wireless 6
 #14 🤖 AI 1
-
+```
 ---
 
 ⚙️ Necə İşləyir?
