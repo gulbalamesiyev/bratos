@@ -16,7 +16,7 @@
 
 <p align="center">
   <b>Azərbaycanın ilk Hacking Əməliyyat Sistemi</b><br>
-  <i>Android üçün ən rahat pentest platforması</i>
+  <i>Android üçün ən rahat hacking platforması</i>
 </p>
 
 ---
