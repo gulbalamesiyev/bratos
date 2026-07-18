@@ -101,14 +101,14 @@ brat install nuclei
         │
         ▼
 ┌──────────────────┐
-│  GitHub API         │  ← Ən son versiyanı tap
-│  (avtomatik)        │
+│  GitHub API          │  ← Ən son versiyanı tap
+│  (avtomatik)         │
 └──────────────────┘
         │
         ▼
 ┌──────────────────┐
-│  ARM64 binary       │  ← Endir + Quraşdır
-│  (hazır)            │
+│  ARM64 binary        │  ← Endir + Quraşdır
+│  (hazır)             │
 └──────────────────┘
         │
         ▼
