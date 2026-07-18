@@ -101,14 +101,14 @@ brat install nuclei
         │
         ▼
 ┌──────────────────┐
-│  GitHub API        │  ← Ən son versiyanı tap
-│  (avtomatik)       │
+│  GitHub API         │  ← Ən son versiyanı tap
+│  (avtomatik)        │
 └──────────────────┘
         │
         ▼
 ┌──────────────────┐
-│  ARM64 binary      │  ← Endir + Quraşdır
-│  (hazır)           │
+│  ARM64 binary       │  ← Endir + Quraşdır
+│  (hazır)            │
 └──────────────────┘
         │
         ▼
@@ -133,7 +133,6 @@ BratOS-un özü ilə yanaşı, quraşdırıcı sizə Fish Shell verir:
 
 🔗 Repolar
 ```
-Repo Link
 BratOS Core github.com/gulbalamesiyev/bratos
 Alət Reposu github.com/gulbalamesiyev/bratos-tools
 ```
@@ -143,7 +142,7 @@ Alət Reposu github.com/gulbalamesiyev/bratos-tools
 
 <p align="center">
   <b>Masiyev Gülbala</b><br>
-  <i>"Sadələşdir. Avtomatlaşdır. Sındır."</i>
+  <i>"Sadələşdir. Avtomatlaşdır. Istismar et."</i>
 </p>
 
 ---
