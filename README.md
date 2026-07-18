@@ -44,8 +44,8 @@ Proot lag         native sürət
 
 🚀 Sürətli Başlanğıc
 
-```bash
-fish                    # BratOS terminalına keç
+```
+      # BratOS terminalına keç
 
 brat update             # Paket indeksini yenilə
 brat search nuclei      # Alət axtar
@@ -152,4 +152,3 @@ Alət Reposu github.com/gulbalamesiyev/bratos-tools
 <p align="center">
   <b>Made in Azerbaijan 🇦🇿</b>
 </p>
-EOF
