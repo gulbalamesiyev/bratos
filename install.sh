@@ -1,6 +1,6 @@
 #!/bin/bash
 # ═══════════════════════════════════════════════════════════
-#  BRATOS INSTALLER v1.0
+#  BRATOS INSTALLER v1.5
 #  Azərbaycanın ilk Hacking Əməliyyat Sistemi
 #  Developer: Masiyev Gülbala
 # ═══════════════════════════════════════════════════════════
@@ -49,17 +49,12 @@ echo -e "${GREEN}      ✓ Tələblər hazırdır${RESET}"
 
 # ═══════════════ 2. Qovluqlar ═══════════════
 echo -e "${BLUE}[2/6]${RESET} BratOS sistemi qurulur..."
-mkdir -p ~/.bratos/{tools,bin}
+mkdir -p ~/.bratos/{tools,bin,cache}
 
 # ═══════════════ 3. BratOS Core ═══════════════
 echo -e "${BLUE}[3/6]${RESET} BratOS Core yüklənir..."
 
 curl -fsSL https://raw.githubusercontent.com/gulbalamesiyev/bratos/main/brat.py -o ~/.bratos/brat 2>/dev/null
-
-if [ ! -s ~/.bratos/brat ]; then
-    echo -e "${YELLOW}      URL-dən yüklənə bilmədi, lokal yazılır...${RESET}"
-    # BratOS core burada yaradılacaq (ayrıca fayl kimi)
-fi
 
 chmod +x ~/.bratos/brat
 ln -sf ~/.bratos/brat ~/.bratos/bin/brat
@@ -166,19 +161,32 @@ fi
 
 echo -e "${GREEN}      ✓ Repo hazırdır${RESET}"
 
+# ═══════════════ ALIAS ═══════════════
+# Alias-ları .bashrc-ə əlavə et
+if ! grep -q "alias bratos=" ~/.bashrc 2>/dev/null; then
+    echo 'alias bratos="fish"' >> ~/.bashrc
+fi
+if ! grep -q "alias brat=" ~/.bashrc 2>/dev/null; then
+    echo 'alias brat="python3 ~/.bratos/brat"' >> ~/.bashrc
+fi
+
+# PATH əlavə et
+if ! grep -q "bratos/bin" ~/.bashrc 2>/dev/null; then
+    echo 'export PATH="$HOME/.bratos/bin:$PATH"' >> ~/.bashrc
+fi
+
 # ═══════════════ BİTDİ ═══════════════
 echo ""
 echo -e "${GREEN}╔═══════════════════════════════════════════════════════════╗"
 echo -e "${GREEN}║                                                           ║"
-echo -e "${GREEN}║         Quraşdırma tamamlandı! 🎉                         ║"
+echo -e "${GREEN}║         Quraşdırma tamamlandı! 🎉                          ║"
 echo -e "${GREEN}║                                                           ║"
 echo -e "${GREEN}║    Əmrlər:                                                ║"
-echo -e "${GREEN}║    ${WHITE}brat${GREEN}        - BratOS terminalını başlat                ║"
-echo -e "${GREEN}║    ${WHITE}brat help${GREEN}   - Bütün əmrləri göstər                     ║"
-echo -e "${GREEN}║    ${WHITE}brat update${GREEN} - Paket indeksini yenilə                   ║"
-echo -e "${GREEN}║    ${WHITE}brat browse${GREEN} - İnteraktiv alət menyusu                  ║"
+echo -e "${GREEN}║    ${WHITE}bratos${GREEN}        - BratOS terminalını başlat          ║"
+echo -e "${GREEN}║    ${WHITE}brat help${GREEN}    - Bütün əmrləri göstər              ║"
+echo -e "${GREEN}║    ${WHITE}brat update${GREEN}  - Paket indeksini yenilə            ║"
+echo -e "${GREEN}║    ${WHITE}brat browse${GREEN}  - İnteraktiv alət menyusu          ║"
 echo -e "${GREEN}║                                                           ║"
+echo -e "${GREEN}║    ${YELLOW}Terminalı bağlayıb yenidən açın...${GREEN}                   ║"
 echo -e "${GREEN}╚═══════════════════════════════════════════════════════════╝"
-echo ""
-echo -e "${YELLOW}[*] 'brat' yazaraq BratOS-a daxil olun${RESET}"
 echo ""
