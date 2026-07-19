@@ -182,3 +182,7 @@ echo -e "${GREEN}╚════════════════════
 echo ""
 echo -e "${YELLOW}[*] 'fish' yazaraq BratOS-a daxil olun${RESET}"
 echo ""
+
+# Alias əlavə et
+echo 'alias bratos="fish"' >> ~/.bashrc
+echo 'alias brat="python3 ~/.bratos/brat"' >> ~/.bashrc
